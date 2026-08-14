@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | Simon Panaretou</title>
+
+  <style>
+    body {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Simon Panaretou</h1>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/research.html' | relative_url }}">Research</a>
+      <a href="{{ '/cv.html' | relative_url }}">CV</a>
+      <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© {{ 'now' | date: "%Y" }} Simon Panaretou</p>
+  </footer>
+
+</body>
+</html>

@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Home
 ---
 
-# Simon Panaretou
 
 **Chemical Physics student at the University of Glasgow**
 
@@ -22,7 +22,7 @@ Write a short paragraph about yourself here.
 - [GitHub](https://github.com/slpanaretou)
 - Email: slpanaretou@outlook.com# Simon Panaretou
 
-Welcome to my website!
+Welcome to my website! 4
 
 I'm a Chemical Physics student at the University of Glasgow.
 
