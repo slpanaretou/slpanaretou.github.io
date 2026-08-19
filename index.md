@@ -3,29 +3,14 @@ layout: default
 title: Home
 ---
 
-
-**Chemical Physics student at the University of Glasgow**
-
-I'm interested in [whatever you're interested in].
-
 ## About me
 
-Write a short paragraph about yourself here.
+Born in Glasgow and raised in East Dunbartonshire, I began my undergraduate studies at the University of Glasgow in 2024, initially on the Mathematics and Physics programme. After a year of studying Mathematics, Physics, and Chemistry, I realised that all three were equally important to my interests. I therefore transferred to the Chemical Physics programme, allowing me to continue developing my understanding across all three disciplines, and dive deeper into science at the atomic and molecular scale. 
 
 ## Projects
 
-- **Project 1** — short description
-- **Project 2** — short description
+This is a test \| pipe
 
-## Contact
+- **May 2026 - Present:** Intern \| Hedley Single Molecule Laboratory
+- **July 2026 - Present:** Organiser \| Scottish Conference in Optical Technologies
 
-- [GitHub](https://github.com/slpanaretou)
-- Email: slpanaretou@outlook.com# Simon Panaretou
-
-Welcome to my website! 4
-
-I'm a Chemical Physics student at the University of Glasgow.
-
-## Projects
-
-I'll be adding my projects here soon.

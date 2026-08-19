@@ -7,22 +7,66 @@
   <title>{{ page.title }} | Simon Panaretou</title>
 
   <style>
+
     body {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 0 20px;
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
+
+    /* Banner */
 
     header {
       margin-bottom: 40px;
     }
 
+    .banner {
+      position: relative;
+      width: 100%;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Name and university on the right side of the image */
+
+    .banner-text {
+      position: absolute;
+      top: -6%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.45);
+      padding: 15px 20px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+    }
+
+    .banner-text h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .banner-text p {
+      margin: 5px 0 0;
+      font-size: 0.95em;
+    }
+
+    /* Navigation */
+
     nav {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
+      padding: 15px 0;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
     }
 
     nav a {
@@ -33,19 +77,38 @@
       text-decoration: underline;
     }
 
+    /* Page content */
+
+    main {
+      padding: 0 20px;
+    }
+
+    /* Footer */
+
     footer {
       margin-top: 60px;
-      padding-top: 20px;
+      padding: 20px 0;
       border-top: 1px solid #ccc;
       font-size: 0.9em;
     }
+
   </style>
 </head>
 
 <body>
 
   <header>
-    <h1>Simon Panaretou</h1>
+
+    <div class="banner">
+
+      <img src="{{ '/assets/banner.png' | relative_url }}" alt="Banner">
+
+      <div class="banner-text">
+        <h1>Simon Panaretou</h1>
+        <p>Chemical Physics · University of Glasgow</p>
+      </div>
+
+    </div>
 
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
@@ -53,6 +116,7 @@
       <a href="{{ '/cv.html' | relative_url }}">CV</a>
       <a href="{{ '/contact.html' | relative_url }}">Contact</a>
     </nav>
+
   </header>
 
   <main>
